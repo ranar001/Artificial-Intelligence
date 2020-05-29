@@ -10,3 +10,5 @@ Some possible features to be added:
     ie. Choose between Forward Selection or Backward Elimination
         Different validation algorithms: Leave-one-out ---> currently implemented
                                          K-fold validation
+
+This project was created for my CS170: Aritficial Intelligence Class
