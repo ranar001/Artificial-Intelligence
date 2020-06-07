@@ -56,7 +56,7 @@ int main(int argc, const char * argv[]) {
         switch (choice) {
             case 1:
                 cout<< "Your choice was: SMALL TEST DATASET..." <<endl;
-                input.open("/Users/ronnyanariva/Downloads/cs_170_small80.txt"); // found how to use this function cplusplus.com
+                input.open("/myPathTo/cs_170_small80.txt"); // found how to use this function cplusplus.com
                 while(! input.eof()){
                     input >> inData;
                     // cout<< inData << endl;
@@ -68,7 +68,7 @@ int main(int argc, const char * argv[]) {
                 break;
             case 2:
                 cout<< "Your choice was: LARGE TEST DATASET..." <<endl;
-                input.open("/Users/ronnyanariva/Downloads/cs_170_large80.txt"); // found how to use this function cplusplus.com
+                input.open("/myPathTo/cs_170_large80.txt"); // found how to use this function cplusplus.com
                 while(! input.eof()){
                     input >> inData;
                     // cout<< inData << endl;
@@ -80,7 +80,7 @@ int main(int argc, const char * argv[]) {
                 break;
             case 3:
                 cout<< "Your choice was: SMALL ASSIGNED DATASET..." <<endl;
-                input.open("/Users/ronnyanariva/Downloads/cs_170_small4.txt"); // found how to use this function cplusplus.com
+                input.open("/myPathTo/cs_170_small4.txt"); // found how to use this function cplusplus.com
                 while(! input.eof()){
                     input >> inData;
                     // cout<< inData << endl;
@@ -92,7 +92,7 @@ int main(int argc, const char * argv[]) {
                 break;
             case 4:
                 cout<< "Your choice was: LARGE ASSIGNED DATASET..." <<endl;
-                input.open("/Users/ronnyanariva/Downloads/cs_170_large4.txt"); // found how to use this function cplusplus.com
+                input.open("/myPathTo/cs_170_large4.txt"); // found how to use this function cplusplus.com
                 while(! input.eof()){
                     input >> inData;
                     // cout<< inData << endl;
